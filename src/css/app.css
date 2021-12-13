@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.container{
+    max-width: 800px !important;
+    padding:12px;
+}
+.c .s {
+    width: 98.5%;
+    height: 72px;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 8px;
+    padding: 10px 14px 0 10px;
+    box-sizing: border-box;
+    padding-right: 16px;
+    overflow: hidden;
+}
+.c .s.f, .c .s.f:hover{
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
+    border: 1px solid #4285f4;
+}
+.c .s:hover {
+    border: 1px solid #dadce0;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    border-top: 1px solid #70757a;
+}
+.c td span{
+    display: block;
+    cursor: pointer;
+    font-family:Roboto,Helvetica Neue,Arial,sans-serif;
+    line-height: 34px;
+    margin: 3px;
+    border-radius: 4px;
+    font-size: 15px;
+    background: #dadce0;
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+}
+
+.c td.h span{
+    background: #f1f3f4;
+    color: #202124;
+    width: calc(50%-4)px;
+    border: 1px solid #f1f3f4;
+}
+.c td.h.r span{
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.c td.b span{
+    font-size: 20px;
+}
+.c td.sm span{
+    font-size: 14px;
+}
+.c td.hc span:first-child{
+    margin-right: 0px;
+    border-radius: 4px 0px 0px 4px;
+    width: calc(50% - 3px) !important;
+    float: left;
+    position: relative;
+}
+.c td.hc span:first-child:after {
+    content: "";
+    height: 16px;
+    position: absolute;
+    border-left: 1px solid #70757a;
+    transform: translateX(-50%);
+    right: -2px;
+    top: 25%;
+}
+.c td.hc span:last-child{
+    margin-left: 0px;
+    border-radius: 0px 4px 4px 0px;
+    float: left;
+    width: calc(50% - 3px) !important;
+    color: #70757a;
+}
+table{
+    width: 57%;   
+}
+table.fixed-width{
+    width:43%;
+    font-size: 14px;
+}
+
+.c td{
+    width: calc(33.33% - 6px);
+}
+
+.c td.hc{
+    width: calc(66.66% - 6px);
+}
+table.fixed-width .c td span{
+    font-size: 13px !important;
+}
+.c .c{
+    text-align: right;
+    font-size: 30px;
+    color: #4d5156;
+    line-height: 1;
+    transition: line-height 0.2s;
+    -webkit-transition: line-height 0.2s;
+}
+.c .a{
+    text-align: right;
+    color: #70757a;
+    font-size: 13px;
+    transition: font-size 0.2s;
+    -webkit-transition: font-size 0.2s;
+    min-height: 22px;
+}
+.c.r .a{
+    font-size: 30px;
+    color: #4d4d4d;
+}
+.c.r .c{
+    line-height: 4;
+}
+.c .ic{
+    float: left;
+    color: #70757a !important;
+    outline: none;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+.c .ic svg path{
+    fill: #70757a !important;
+}
